@@ -8,13 +8,24 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, SideMenuDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let sideMenu = SideMenu(menuWidth: 150, menuItemTitles: ["Home", "User", "Settings"], parentViewController: self)
+        sideMenu.menuDelegate = self
     }
 
+    func didSelectMenuItem(withTitle title: String, index: Int) {
+        print("Clicked on \(title) which has the index \(index)")
+        if title == "Home" {
+            print("user pressed home")
+        } else if index == 1 {
+            print("user pressed user")
+        }
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

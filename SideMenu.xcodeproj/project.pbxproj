@@ -14,6 +14,7 @@
 		203DDD2C1DBC9BFF00E2B559 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203DDD2A1DBC9BFF00E2B559 /* LaunchScreen.storyboard */; };
 		203DDD371DBC9BFF00E2B559 /* SideMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203DDD361DBC9BFF00E2B559 /* SideMenuTests.swift */; };
 		203DDD421DBC9BFF00E2B559 /* SideMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203DDD411DBC9BFF00E2B559 /* SideMenuUITests.swift */; };
+		203DDD501DBC9C2300E2B559 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203DDD4F1DBC9C2300E2B559 /* SideMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		203DDD3D1DBC9BFF00E2B559 /* SideMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SideMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		203DDD411DBC9BFF00E2B559 /* SideMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuUITests.swift; sourceTree = "<group>"; };
 		203DDD431DBC9BFF00E2B559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		203DDD4F1DBC9C2300E2B559 /* SideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				203DDD211DBC9BFF00E2B559 /* AppDelegate.swift */,
 				203DDD231DBC9BFF00E2B559 /* ViewController.swift */,
+				203DDD4F1DBC9C2300E2B559 /* SideMenu.swift */,
 				203DDD251DBC9BFF00E2B559 /* Main.storyboard */,
 				203DDD281DBC9BFF00E2B559 /* Assets.xcassets */,
 				203DDD2A1DBC9BFF00E2B559 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				203DDD501DBC9C2300E2B559 /* SideMenu.swift in Sources */,
 				203DDD241DBC9BFF00E2B559 /* ViewController.swift in Sources */,
 				203DDD221DBC9BFF00E2B559 /* AppDelegate.swift in Sources */,
 			);
